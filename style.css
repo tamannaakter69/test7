@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.h2{
+    text-align: center;
+    background-color: rgb(36, 5, 116);
+    padding: 25px;
+    color: aliceblue;
+    font-size: 25px ;
+    top: 0px;
+}
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(226, 43, 214);
+    margin: 20px;
+    transition-property: bottom ;
+    transition: 2s;
+
+}
+.box:hover{
+    transform: translate(50px);
+}
